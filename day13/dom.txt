@@ -1,3 +1,21 @@
 modification/manuplation of DOM
 -------------------------------
 update/modify an DOM.
+
+//method
+-->createElement()
+
+to use this you have to follow two steps
+----------------------------------------
+step 1 :-
+    create an element using createElement() method
+    eg:- 
+    let  a  = document.createElement("h1");
+    a.textContent = "hello-world"
+
+
+step 2 :-
+    append the element to the parent element using append method 
+    append/appendChild()
+
+    eg:- document.body.appendChild(a)
