@@ -1,0 +1,20 @@
+    JSON (java-script object notation)
+    ----------------------------------
+    --> it is a plain text file used to store datain the form of key value pair.
+    --> it is a lightweight data interchange format.
+    --> where all the keys should be enclosed in a double quote.
+
+    --> two methods
+        1) stringify()
+        -- will convert object into JSON format.
+
+        2) parseJSON()
+        -->will convert JSON into object format
+
+    
+how to convert a JSON.
+----------------------
+step 1):- create a .json file.
+step 2:- write the data in the json file in the form of key value pair and key should be enclosed with a double quote. 
+        Has a value we shouldnot use undifined data-type.
+step 3:- use the parseJSON() method to convert the JSON into object format. 
