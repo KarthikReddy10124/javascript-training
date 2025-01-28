@@ -1,0 +1,22 @@
+[
+    {
+        "name" : "budi" ,
+        "id" : 2 ,
+        "age" : 25 ,
+        "address" : "jakarta" ,
+        "designation" : "developer"
+    },
+    {
+        "name" : "sakura" ,
+        "id" : 3 ,
+        "age" : 26 ,
+        "address" : "leaf village" ,
+        "designation" : "healer"
+    },
+    {
+        "name" : "nami" ,
+        "id" : 4 ,
+        "age" : 27 ,
+        "designation" : "navigater"
+    }
+]
