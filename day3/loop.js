@@ -18,11 +18,11 @@
 //     //set-of-instructions
 // }
 
-let i = 1;
-while (i <= 5) {
-    console.log(i);
-    i++;
-    }
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+//     }
     //1 2 3 4 5
 
     // do-while-loop
@@ -33,13 +33,13 @@ while (i <= 5) {
     //     //set-of-instructions
     // }
     // while(condition)
-    let a = 5;
-    do {
-        console.log(a);
-        a--;
-        }
-        while (a >= 1);
-        //5 4 3 2 1
+    // let a = 5;
+    // do {
+    //     console.log(a);
+    //     a--;
+    //     }
+    //     while (a >= 1);
+    //     //5 4 3 2 1
 
         // for-loop
         // --> it will iterate set-of-instructions based on condition
@@ -51,11 +51,11 @@ while (i <= 5) {
         // for(initialization;condition;increment/decrement)
         // {
         //     //set-of-instructions
-        // }
-        for (let i = 1; i<= 5; i++) {  
-            console.log(i);
-            }
-            //1 2 3 4 5
+        // // }
+        // for (let i = 1; i<= 5; i++) {  
+        //     console.log(i);
+        //     }
+        //     //1 2 3 4 5
             // break
 
 
@@ -75,12 +75,12 @@ while (i <= 5) {
 // it is a set of instruction or block of code used to perform specific task
 // syntex
 // function functionname(parameters){
-//     //set-of-instructions
-// }
-function add(a, b) {
-    return a + b;
-    }
-    console.log(add(5, 6)); 
+// //     //set-of-instructions
+// // }
+// function add(a, b) {
+//     return a + b;
+//     }
+//     console.log(add(5, 9)); 
 
 //return-keyword ->will stop execution of the function
 //hosting -> process of moving the function decleration to the top of the code 

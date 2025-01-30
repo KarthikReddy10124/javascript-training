@@ -1,0 +1,57 @@
+framework vs library
+
+framework :
+-->collection of libraries 
+ex tailwind ,bootstrap
+
+library:
+-->collections of methods or functions
+ex:
+react.js , JQuery ,node.js,popper.js
+
+REACT :
+1) it is a library.
+2) it is used to develop a single page applitction.
+3) it is a component based application.
+    component are re-usable.
+4) react is declerative.
+
+
+note:- react will render component on the web-page
+        without a page re-loading. 
+
+in react fst virtual dom will be created and compares with orginal dom.
+the one to one mapping will be done by using diffing algorithm.
+. it uses MVC architecture
+three dependencies are:
+1. react
+    --> createElement , all hooks
+2. react-dom
+    --> used to create virtual-dom
+3. react-scripts
+    --> run , debug , test , eject react-application
+
+2013 , facebook (meta) , jorden walke
+
+-->react 19
+
+how to create react-application
+-------------------------------
+1) CDN way
+2) node.js way
+
+a) npm
+    -->used to install , update , delete package in a js.
+    -->packages will be installed globally
+
+npm install -g create-react-app
+create-react-app project-name
+
+npm create vite@latest -----> install latest version of react.
+
+b) npx
+-->used to install package without installing it.
+-->package will be installed locally.
+-->no need of globally while installing packages.
+
+    npx create-react-app project-name
