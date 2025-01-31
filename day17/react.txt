@@ -1,0 +1,74 @@
+React folder Structure:
+node-modules folder:
+all the packages and third-party libraries will be present
+src folder:
+it is a main folder
+used for creating components
+src-source
+
+index.html:
+it is a root file
+all the components in src will be indirect to index.html file 
+eslint.config.js
+eslint- (ecma script lint) .it used for the debug purpose
+package.json:
+it store all the dependency and third-party library
+ReadMe: it is used for GitHub
+
+babel: babel will convert advanced concept of js  to the old version then the react understands it
+
+components in react
+-------------------
+-->components are basic bulding blocks in react.
+-->components are reusable in react.
+
+two-types
+---------
+-->functional component / presentional component / dumb component
+-->class component
+
+1)class based component
+-->it is a es6 class in js.
+-->it uses react-life-cycle.
+-->it uses react-state.
+-->it uses react-prop-types.
+-->uses render() method.
+    render() method will render component on the web-page
+    -->uses constructor() method. to store data and it uses extends keywords.
+
+import REact from 'react'
+class demo ectends React.Component {
+    render(){
+        return <h1>iam classbased component</h1>
+    }
+}
+export default demo;
+
+2)function based component 
+--> it is a js pure function.
+--> it does not use react-life-cycle.
+--> it does not use react-state.
+--> it does not use react-prop-types.
+--> it is stateless
+    after react 16.8 FBC becomes statefull component
+    because of hooks.
+--> there is no constructor and extend in FBC
+-->uses return keyword.
+return keyword will render component on the web-page
+-->uses arrow function.
+
+import React from 'react'
+function demo1()
+{
+    return (
+        <h1>function based component</h1>
+    )
+}
+export default demo;
+
+
+import React from 'react'
+const demo2 = () => {
+return <h1>iam function based component</h1>
+}
+export default demo2;

@@ -55,3 +55,4 @@ b) npx
 -->no need of globally while installing packages.
 
     npx create-react-app project-name
+    
