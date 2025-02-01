@@ -1,0 +1,58 @@
+ways of creating elements 
+-------------------------
+
+HTML
+----
+
+    <h1>hello-world</h1>
+
+DOM in js
+---------
+let h1 = document.createElement("h1")
+console.log(h1)
+hi.textContext = "hello"
+
+react
+-----
+React.createElement("tag-name" , {id : "demo"} " , "content")
+
+eg:-
+React.creatElement("h1" , "null" , "hello")
+
+eg:-
+React.createElement("div" , {id : "demo"} , React.createElement 
+                        ("spam" , "null" , "hello"))
+
+
+
+JSK (java-script XML)
+---------------------
+--> it is used to react html in react.
+--> it is neither string nor html.
+
+1)all the elements should be en-closed. ex:-<img/>
+2)if there is a morethan one element it should be wrapped inside a parent element or fragment.
+ex:- 
+<div> --->parent
+<h1>hello</h1>
+<h2>hello</h2>
+</div>
+
+<> --->fragment (introduced in react 16.8) it is used to save memory in virtual dom. fragment doesnot take any memory where div tag will take.
+<h1>hello</h1>
+<h2>hello</h2>
+</>
+
+3) use {} for writting expression.
+
+
+
+props in react
+--------------
+
+-->props stands properties.
+-->props are immutable
+-->props are used to send data from one component to another component
+-->props are uni-direction.
+-->props are read-only.
+--> it is an object
