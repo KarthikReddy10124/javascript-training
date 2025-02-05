@@ -9,9 +9,9 @@ import Parent from './props/Parent.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Cbc/>
+    {/* <Cbc/>
     <Fbc/>
-    <Demo/>
+    <Demo/> */}
     <Parent/>
   </StrictMode>,
 )
