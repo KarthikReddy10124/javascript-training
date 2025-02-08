@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Ref from './useRef/Ref'
+import Comp3 from './list-keys/Comp3'
+// import Ref from './useRef/Ref'
+// import List from './list-keys/List'
 // import External from './styles/External'
 // import './index.css'
 // import Cbc from './component/Cbc.jsx'
@@ -25,6 +27,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Comp1/>
     <Comp2/> */}
     {/* <External/> */}
-    <Ref/>
+    {/* <Ref/> */}
+    {/* <List/> */}
+    <Comp3/>
   </StrictMode>,
 )

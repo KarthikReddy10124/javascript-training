@@ -83,3 +83,13 @@ useRef hook in react
 
     SYNTAXXXX:
         const ref = useRef(initialValue)
+
+List and keys in react
+----------------------
+> list is used to iterate as array using map().
+> keys are used to track an element.
+> using key we can understand which element is create,updated
+
+advantages
+-->improves component effiecency.
+-->improvers optimizion of the browser.
