@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    background-color: #454647;
+}
+#sub-nav{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+    color: #fff;
+}
+#sub-nav ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 17px;
+    font-weight: 600;
+    right: 700px;
+
+
+    
+}

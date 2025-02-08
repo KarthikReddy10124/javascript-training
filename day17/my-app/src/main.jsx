@@ -1,5 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import Ref from './useRef/Ref'
+// import External from './styles/External'
 // import './index.css'
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
@@ -7,9 +9,9 @@ import { createRoot } from 'react-dom/client'
 // import Parent from './props/Parent.jsx'
 // import State from './State/State.jsx'
 // import Inline from './styles/Inline.jsx'
-import Comp1 from './styles/Comp1.jsx'
-import '../src/styles/globally.css'
-import Comp2 from './styles/Comp2.jsx'
+// import Comp1 from './styles/Comp1.jsx'
+// import '../src/styles/globally.css'
+// import Comp2 from './styles/Comp2.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -20,7 +22,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Parent/> */}
     {/* <State/> */}
     {/* <Inline/> */}
-    <Comp1/>
-    <Comp2/>
+    {/* <Comp1/>
+    <Comp2/> */}
+    {/* <External/> */}
+    <Ref/>
   </StrictMode>,
 )

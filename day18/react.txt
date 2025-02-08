@@ -66,3 +66,20 @@ states in reaact  -------------------------------
     const [state ,setState ] = useState(initial)
     state --> used to stor initial value
     useState() --> used to update state value
+
+styling in react 
+----------------------------------------
+    -->1) inline css
+    -->2) glabally css
+    -->3) external css!!!!!!!!!!!!
+    
+useRef hook in react
+----------------------------------------
+    --> useRef stands for reference
+    -->uses the real dom 
+    -->useRef is having a object called current
+    --> uses ref keyword
+    -->used in uncontrolled form 
+
+    SYNTAXXXX:
+        const ref = useRef(initialValue)
