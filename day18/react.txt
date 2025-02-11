@@ -93,3 +93,60 @@ List and keys in react
 advantages
 -->improves component effiecency.
 -->improvers optimizion of the browser.
+
+how to avoid props drilling
+----------------------------------
+    -->using useContext hook
+    -->using higher order component
+    -->using redux
+
+
+
+useContext hook in react 
+--------------------------------
+    -->useContext is used to pass data from parent to child component 
+        or from one component to another component without using props
+    -->useContext is used to avoid prop drilling
+    -->useContext is used to avoid passing props to each component
+
+    SYNTAX:
+
+    step 1: create a context and export it
+
+    export const context = createContext(initialValue);
+
+    step 2: use provider to pass the value
+
+    <identifierName.provider value={data} >
+        {children }
+        <childComponent/>
+    </identifierName.provider>
+
+
+
+        const value = useContext(context)
+        <context.Provider value={data}>
+            <childComponent />
+        </context.Provider>
+
+    step 3: use consumer to consume the value given by the provider 
+    import context from "./context"
+    <identifierName.consumer>
+        {
+        cbf
+        }
+    </identifierName.consumer>
+
+useEffect in react
+------------------
+> it is used to provide side effect for function based component.
+> in react we can tell to component to perform something after component renders.
+> used for updating a DOM.
+> used as timer.
+> used fetch an API.
+> useEffect will avoids React life-cycle in CBC
+    > componentDidMount()
+    > componentDidUpdate()
+    > componentWillUnmount()
+
+    

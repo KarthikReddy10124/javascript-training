@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Comp3 from './list-keys/Comp3'
+// import Comp3 from './list-keys/Comp3'
 // import Ref from './useRef/Ref'
 // import List from './list-keys/List'
 // import External from './styles/External'
-// import './index.css'
+import './index.css'
+import App from './App'
+import UseEffect from './UseEffect/UseEffect'
+// import CompA from './useContext/CompA'
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
 // import Demo from './component/Demo.jsx'
@@ -29,6 +32,9 @@ createRoot(document.getElementById('root')).render(
     {/* <External/> */}
     {/* <Ref/> */}
     {/* <List/> */}
-    <Comp3/>
+    {/* <Comp3/> */}
+    {/* <App /> */}
+    {/* <CompA /> */}
+    <UseEffect/>
   </StrictMode>,
 )
