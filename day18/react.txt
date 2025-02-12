@@ -149,4 +149,19 @@ useEffect in react
     > componentDidUpdate()
     > componentWillUnmount()
 
-    
+Browser Routes in React
+--------------------------------
+    > BrowserRouter is used to enable client side routing in react.
+    > it is use to interact from one component to multiple component.
+    > Routes is a pre-defined componentused to wrap Route.
+    > Route is pre-define component used for routing purpose.
+    > Browser Router is a pre-default component used to wrap Routes.
+    > useNavigate() it is used to navigate component.
+    > useLocation() it is used to get the current location.
+    > useMatch() it is used to get the current match.
+    > useParmes() hook it is used to target 
+    > <Link></Link> used for place-holder
+
+what is single page application
+--------------------------------
+    >used to link one component to another component without a page-reloading
