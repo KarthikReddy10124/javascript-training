@@ -19,7 +19,7 @@
 //     setTimeout(()=>{
 //         for(let i=n ; i<=m ;i++){
 //             console.log(i)
-//         }
+        // }
 //     },2000)
 // } 
 // main(1,10)
