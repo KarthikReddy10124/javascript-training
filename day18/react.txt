@@ -165,3 +165,13 @@ Browser Routes in React
 what is single page application
 --------------------------------
     >used to link one component to another component without a page-reloading
+
+Higher order component
+----------------------
+--> it is an advsnce technique used to re-use component logic.
+--> it is a function that takes a component as an argument and returns a new component with some additional
+--> it is used to avoid props drilling.
+
+SYNTAX
+
+let newComponent = HigherOrderComponent(OriginalComponent)

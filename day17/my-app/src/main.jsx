@@ -6,7 +6,8 @@ import { createRoot } from 'react-dom/client'
 // import External from './styles/External'
 import './index.css'
 import App from './App'
-import UseEffect from './UseEffect/UseEffect'
+// import UseEffect from './UseEffect/UseEffect'
+import Child from './HOC/Child'
 // import CompA from './useContext/CompA'
 // import Cbc from './component/Cbc.jsx'
 // import Fbc from './component/Fbc.jsx'
@@ -35,6 +36,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Comp3/> */}
     {/* <App /> */}
     {/* <CompA /> */}
-    <UseEffect/>
+    {/* <UseEffect/> */}
+    <Child/>
   </StrictMode>,
 )
